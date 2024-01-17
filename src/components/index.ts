@@ -1,6 +1,6 @@
 
 
-export { Sidebar } from './Sidebar';
+export { Sidebar } from './sidebar/Sidebar';
 export { SidebarItem } from './SidebarItem';
 export { TopMenu } from './TopMenu';
 export { WidgetItem } from './WidgetItem';
