@@ -53,7 +53,7 @@ export const Sidebar = async() => {
     : 'https://tailus.io/sources/blocks/stats-cards/preview/images/second_user.webp';
 
   const userName = session?.user?.name ?? 'No Name';
-  // const userRoles = session?.user?.roles ?? ['client'];
+  const userRoles = session?.user?.roles ?? ['client'];
 
 
 
@@ -86,7 +86,7 @@ export const Sidebar = async() => {
             { userName }
           </h5>
           <span className="hidden text-gray-400 lg:block capitalize">
-            {/* { userRoles.join(',') } */}
+            { userRoles.join(',') }
           </span>
         </div>
 

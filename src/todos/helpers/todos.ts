@@ -43,7 +43,7 @@ export const createTodo = async( description: string ):Promise<Todo> => {
     headers: {
       'Content-Type': 'application/json'
     }
-  }).then( async (res) => res.json() );
+  }).then( res => res.json() );
   
   console.log({todo});
 
